@@ -1,0 +1,679 @@
+/**********
+Web Fonts
+************/
+
+@font-face {
+  font-family: ''; 
+}
+ 
+/**********
+FRONT PAGE AND/OR BASICS
+************/
+
+/* id = # */
+/* class = . */
+/*
+
+* {  Universal selector 
+  text-align: center;
+}
+*/
+
+body {
+  background-color: #ee9572 /*#b4cdcd*/ /*#eedd82*/ /*#fff68f*/;
+}
+
+.fadein {
+  overflow:hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 400px;
+  z-index:0;
+}
+
+.fadein img { 
+  position:absolute;
+  top:0;
+  left:0;
+  display: none;
+  width:100%;
+}
+
+.fadein img:first-child { display:block }
+
+#header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.greeting {
+  font-family: 'Carrois Gothic SC', sans-serif; /* FIND NEW FONT!!!!!!!!!!!!!!!!!! */ ;
+  font-size: 35px /* 25px */ ;
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  padding: 55px;
+  margin-bottom: 0px;
+}
+
+.greeting h1,
+.greeting h2 { position:relative; }
+
+#header h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0cba2e;
+  margin-top: 0px;
+  
+}
+
+#welcome {
+  /*
+  font-family: font-family: 'Cantata One', serif;
+  */
+  font-family: 'PT Serif Caption', serif;
+  font-size: 18px;
+  /*
+  font-family: 'Carrois Gothic SC', sans-serif;
+  */
+  width: 75%;
+  text-align: center;
+  line-height: 1.5;
+  margin: auto;
+}
+
+#nav {
+  border: 5px solid brown;
+  text-align: center;
+  background-color: palevioletred;
+  width: 80%;
+  margin: auto; /* centers it up */
+  margin-bottom: 50px;
+  margin-top: 35px;
+  padding: 20px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 15px 10px;
+  border-left: 1px solid purple;
+  border-right: 1px solid purple;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 10px 30px;
+  display: block;
+  padding: 10px;
+
+}
+
+.sectionOne {
+  
+}
+
+#service{
+  font-size: 25px;
+  color: white;
+  text-shadow: 3px 1px 0 black;
+  text-align: center;
+  float: right;
+  width: 50%;
+  padding: 1px;
+  margin-top: 15px;
+  background-image: url('flame-cross.jpg') /*url('../flame-cross.jpg') and below are all the cross' info*/;
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-color: #ee9572;
+  background-position: center;
+  padding-left: ;
+}
+
+#service:hover {
+  color: darkgoldenrod;
+  text-shadow: 0 0 0 ;
+  background-color: white;
+  padding: ;
+  border-radius: 50%;
+  
+}
+
+#verses {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  padding-left: 50px;
+  width: 35%;
+}
+
+#crossCR {
+  text-decoration: none;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 10px;
+  width: 75%;
+  margin: auto;
+
+}
+  
+
+img {
+  max-width: 100%;
+}
+  
+footer {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 45px;
+  
+}
+
+#fb {
+  width: 40px;
+  height: 40px;
+}
+
+/*************
+Mouse effects
+**************/
+
+a:link {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.selected {
+  color: white;  
+}
+
+a:hover {
+  color: #9a7006;
+  text-shadow: 1px 1px black; 
+  border-bottom: 5px solid purple;
+}
+
+a:focus { /* Hit tab to select links */
+  color: white;
+  background-color: purple; 
+}
+
+
+
+
+
+
+
+/* Float clearfix ----------------*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+/*************
+WORSHIP SECTION
+**************/
+
+#worshipInfo {
+  font-size: 18px; 
+  font-family: 'PT Serif Caption', serif;
+  width: 50%;
+  margin: auto;
+  
+  padding-bottom: 10px;
+  
+  float: left;
+  padding-left: 50px;
+  
+}
+#worshipInfo h1 {
+  text-align: center;
+}
+#extra1 {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  width: 30%;
+  float: right;
+  padding-right: 50px;
+  padding-top: 60px;
+  padding-bottom: 220px;
+}
+#prayerMeeting {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  float: left;
+  padding-left: 50px;
+    
+  padding-top:  /*600px ^6777777587568758676872856475865785867vnvbv8ngr86542687 4852678 n8 */ ;
+  
+  text-align: left;
+}
+#prayerMeeting h2 {
+
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+}
+#worshipFoot {
+ margin-top: 1000px; 
+}
+
+
+
+/*************
+FIND US SECTION
+**************/
+
+#stayPut {
+  margin: auto;
+}
+#map-canvas {
+  width: 600px ;
+  margin: auto;
+  margin-top: 100PX;
+  margin-bottom: 175px;
+
+}
+.findUsStyle h1, p {
+  text-align: center;
+  font-family: 'PT Serif Caption', serif;
+}
+.findUsStyle p {
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+#findFoot {
+  margin-top: 100px;;
+}
+
+
+
+
+/*************
+HISTORY SECTION
+**************/
+.historyH {
+  font-family: 'PT Serif Caption', serif;
+  text-align: center;
+  font-size: 33px;
+}
+.historyP {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 16px;
+  width: 70%;
+  margin: auto;
+  padding: 15px;
+}
+.historyP1 {
+  font-size: 20px;
+  width: 75%;
+  margin: auto;
+}
+.historyPP {
+  font-size: 15px;
+  width: 40%;
+  margin: auto;
+  text-align: left;
+  
+}
+.historyPP::first-letter {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+/*************
+SMALL GROUPS SECTION
+**************/
+.groupsH {
+  font-family: 'PT Serif Caption', serif;
+  text-align: center;
+  font-size: 25px;
+  width: 75%;
+  margin: auto;
+}
+.groupsP {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 16px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.groupsP1 {
+  font-family: 'PT Serif Caption', serif;
+  
+  font-size: 25px;
+  color: #beb11e;
+  margin: auto;
+  background:  url('extra2.jpg') no-repeat center;
+  text-shadow: 1px 1px black;
+  height: 450px;
+  width: 450px;
+}
+.groupsP2 {
+  padding: 1px;
+}
+.groupsP3 {
+  padding-bottom: 1px;
+}
+.groupsP4 {
+  padding-top: 1px;
+}
+#extra2 {
+  display: none;
+  /*margin: auto;*/
+  width: 350px;
+  height: 350px;
+  float: right;
+  padding-right: 72px;
+}
+.groupsH1 {
+  color: black;  
+  font-family: 'PT Serif Caption', serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+/*************
+LEADERSHIP SECTION
+**************/
+.leaderH {
+  font-family: 'PT Serif Caption', serif;
+  text-align: center;
+  font-size: 25px;
+  width: 75%;
+  margin: auto;
+}
+.leaderP {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 16px;
+  text-align: left;
+  width: 65%;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
+/*************
+OUTREACH SECTION
+**************/
+.outreachP1 {
+  font-family: 'PT Serif Caption', serif;
+  text-align: center;
+  font-size: 20px;
+  width: 75%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+.outreachP {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 16px;
+  text-align: left;
+  width: 65%;
+  margin: auto;
+  padding: 20px; 
+}
+.outreachP2 {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 16px;
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  margin-top: 1350px;
+  padding: 20px;
+  padding-top: 65px;
+}
+#reachLeft {
+  width: 45%;
+  float: left;
+  padding-left: 50px;
+}
+.extra3{
+  width: 350px;
+  height: 350px;
+}
+#reachRight {
+  width: 40%;
+  float: right;
+}
+#reachFoot {
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+/************
+Media Queries 
+**************/
+
+@media (max-width: 960px) {
+  #verses {
+    font-size: 30px;
+  }
+}
+
+
+@media (min-width: 701px) and (max-width: 1025px) {
+  .greeting {
+    font-size: 30px /* 25px */ ;
+    color: white;
+    padding: 5px;
+    background-color: #0cba2e;
+  }
+#header h3 {
+  padding-top: 145px;
+  padding-bottom: 10px;
+  background-color: #0cba2e;
+  margin-top: 0px;
+    }
+#prayerMeeting {
+  padding-top: ;
+}
+#map-canvas {
+  width: 600px; 
+}
+.outreachP2 {
+  margin-top: 1550px;
+}
+  #worshipFoot {
+ margin-top: 1250px; 
+}
+  
+.groupsP1 {
+  color: #beb11e;
+  float: none;
+  padding: 0;
+/*  padding-top: 660px;
+  padding-bottom: 50px;*/
+  width: 90%;
+  margin: auto;
+  background:  url('extra2.jpg') no-repeat center;
+  text-shadow: 1px 1px black;
+  height: 450px;
+  width: 450px;
+}
+.groupsH1 {
+ margin-top: 50px;
+}  
+  
+}
+
+
+
+@media (min-width: 481px) and (max-width: 700px) {
+  #service {
+    float: none;
+    width: 80%;
+    margin: auto;
+    background-size: 50%;
+  }
+  #verses {
+    float: none;
+    width: 80%;
+    font-size: 15px;
+    padding-top: 75px;
+  }
+  .greeting {
+    font-size: 20px /* 25px */ ;
+    color: white;
+    padding: 0;
+    margin-top: ;
+  }
+  #header h3 {
+    padding-top: 115px;
+    padding-bottom: 10px;
+    background-color: #0cba2e;
+    margin-top: 0px;
+  
+}
+  #welcome {
+    padding-bottom: 100px;
+  }
+  .outreachP2 {
+  margin-top: 1875px;
+}
+  #prayerMeeting {
+    margin: auto;
+    float: none;
+    width: 80%;
+    padding-left: 0;
+ }
+  #worshipInfo {
+    width: 80%;
+    float: none;
+    padding-left: 0;
+}
+  #extra1 {
+    display: none;
+} 
+  #worshipFoot {
+    margin-top: 60px; 
+}
+  
+.groupsP1 {
+  color: #beb11e;
+  float: none;
+  padding:  0;
+  width: 70%;
+  margin: auto;
+  background:  url('extra2.jpg') no-repeat center;
+  text-shadow: 1px 1px black;
+  background-size: 100%;
+  background-position: center;
+}
+.groupsH1 {
+ margin-top: 50px;
+}
+  
+}
+
+
+
+
+@media (max-width: 480px) {
+  #verses {
+    display: none;
+  }
+  #service {
+    width: 100%;
+    background-size: 75%;
+  }
+  nav li {
+    display: list-item;
+    padding: 10px;
+  }
+  .greeting {
+    font-size: 12px /* 25px */ ;
+    color: white; 
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: -20px;
+  }
+  #header h3 {
+    padding-top: 50px;
+  }
+  .extra3{
+    display: none;
+  }
+  .outreachP {
+    width: 100%;
+  }
+    .outreachP2 {
+  margin-top: 1600px;
+}
+   .greeting {
+     height: 165px;
+     padding-bottom: 0;
+  }
+  .fadein {
+    height: 200px;
+    padding-bottom: 0;
+  }
+  #prayerMeeting {
+    margin: auto;
+    float: none;
+    width: 80%;
+    padding-left: 0;
+ }
+  #worshipInfo {
+    width: 80%;
+    float: none;
+    padding-left: 0;
+}
+  #extra1 {
+    display: none;
+} 
+  #worshipFoot {
+    margin-top: 60px; 
+}  
+  .groupsP1 {
+  float: none;
+  padding: 50px 0;
+  width: 90%;
+  margin: auto;
+}
+.groupsH1 {
+ margin-top: 50px;
+}
+  
+}
+
+
+
+
